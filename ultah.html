@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun</title>
+    <link rel = "icon" href = 
+"https://cdn-icons-png.flaticon.com/512/2454/2454297.png" 
+        type = "image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <center>
+        <div class="img">
+            <img src="img/birthday.gif">
+        </div>
+
+        <div class="container">
+            <h2 class="title">
+              <span class="title-word title-word-1">Selamat</span>
+              <span class="title-word title-word-2">Ulang</span>
+              <span class="title-word title-word-3">Tahun</span>
+            </h2>
+            <h3 onclick="myFunction()">Pencet Aku</h3>
+            <a href="album.html"><h4>Mau Liat Album?Pencet Aku</h4></a>
+          </div>
+    </center>
+    <script>
+        function myFunction() {
+          const msg = ["Semoga Panjang Umur", "Semoga Sehat Selalu", "Semoga Banyak Rezeki","Semoga Diberkahi Tuhan"];
+          alert(msg[Math.floor(Math.random() * msg.length)]);
+        }
+    </script>
+        
+</body>
+</html>
